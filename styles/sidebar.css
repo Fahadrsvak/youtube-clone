@@ -1,0 +1,28 @@
+.sidebar{
+    position: fixed;
+    left: 4px;
+    bottom:0;
+    top:60px; 
+    width: 65px;
+}
+.sidebar-block{
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    row-gap: 5px;
+
+}
+.sidebar-block:hover{
+    background-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    cursor:pointer;
+}
+.sidebar-block img{
+    height: 24px;
+}
+.sidebar-block div{
+    font-family:roboto,arial;
+    font-size: 10px;
+}
